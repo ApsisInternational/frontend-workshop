@@ -1,0 +1,29 @@
+{
+  "name": "@apsis/workshop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "dependencies": {
+    "babel-core": "^5.0.0",
+    "babel-eslint": "^4.0.0",
+    "eslint": "^2.0.0",
+    "eslint-config-apsis": "^2.0.0",
+    "gulp": "3.9.0",
+    "gulp-config-apsis": "^2.0.0",
+    "jspm": "^0.16.0",
+    "jspm-git": "^0.4.0"
+  },
+  "jspm": {
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  }
+}

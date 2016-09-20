@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "node_modules/": true,
+    "dist/": true,
+    "jspm_packages/": true,
+    ".vscode/": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.ngfactory.ts": {
+      "when": "$(basename).ts"
+    }
+  }
+}
