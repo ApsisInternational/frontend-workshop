@@ -16,7 +16,9 @@
     "jspm-git": "^0.4.0"
   },
   "jspm": {
-    "dependencies": {},
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.5.8"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
