@@ -11,7 +11,8 @@ System.config({
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
-    "app": "src/app/"
+    "app": "src/app/",
+    "apsis:*": "jspm_packages/apsis/*"
   },
 
   packages: {
@@ -22,9 +23,46 @@ System.config({
 
   map: {
     "angular": "github:angular/bower-angular@1.5.8",
+    "angular-ui-router": "github:angular-ui/angular-ui-router-bower@0.3.1",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
+    "site": "apsis:site@3.7.1",
+    "topbar": "apsis:topbar@3.1.1",
+    "apsis:icon@2.1.0": {
+      "angular": "github:angular/bower-angular@1.5.8",
+      "css": "github:systemjs/plugin-css@0.1.27",
+      "kontroll": "apsis:kontroll@1.1.0"
+    },
+    "apsis:popover@1.10.0": {
+      "css": "github:systemjs/plugin-css@0.1.27",
+      "icon": "apsis:icon@2.1.0",
+      "kontroll": "apsis:kontroll@1.1.0",
+      "text": "github:systemjs/plugin-text@0.0.2"
+    },
+    "apsis:site@3.7.1": {
+      "angular": "github:angular/bower-angular@1.5.8",
+      "angular-ui-router": "github:angular-ui/angular-ui-router-bower@0.3.1",
+      "css": "github:systemjs/plugin-css@0.1.27",
+      "icon": "apsis:icon@2.1.0",
+      "kontroll": "apsis:kontroll@1.1.0",
+      "popover": "apsis:popover@1.10.0",
+      "text": "github:systemjs/plugin-text@0.0.6",
+      "translate": "apsis:translate@0.1.0"
+    },
+    "apsis:topbar@3.1.1": {
+      "angular": "github:angular/bower-angular@1.5.8",
+      "css": "github:systemjs/plugin-css@0.1.27",
+      "kontroll": "apsis:kontroll@1.1.0",
+      "text": "github:systemjs/plugin-text@0.0.6"
+    },
+    "apsis:translate@0.1.0": {
+      "ApsisInternational/bower-angular-translate": "github:ApsisInternational/bower-angular-translate@2.8.1",
+      "ApsisInternational/bower-angular-translate-loader-static-files": "github:ApsisInternational/bower-angular-translate-loader-static-files@2.8.1"
+    },
+    "github:angular-ui/angular-ui-router-bower@0.3.1": {
+      "angular": "github:angular/bower-angular@1.5.8"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
